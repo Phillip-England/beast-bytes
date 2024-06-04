@@ -10,4 +10,21 @@ class View {
             <?php
         });
     }
+
+    public static function articles() {
+        Template::base("Articles", function() {
+            ?>
+
+            <?php
+        });
+    }
+
+    public static function contact() {
+        Template::base("Contact", function() {
+            ?>
+
+            <?php
+        });
+    }
+
 }
