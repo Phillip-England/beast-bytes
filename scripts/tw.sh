@@ -1,0 +1,1 @@
+tailwindcss -i /home/jacex/app/beast-bytes/static/css/input.css -o /home/jacex/app/beast-bytes/static/css/output.css --watch

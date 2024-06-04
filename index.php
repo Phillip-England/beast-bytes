@@ -3,15 +3,16 @@
 include 'src/http.php';
 include 'src/components.php';
 include 'src/router.php';
-include 'src/templates.php';
+include 'src/template.php';
 include 'src/err.php';
 include 'src/middleware.php';
+include 'src/view.php';
 
 
-$path = Http::getRawPath();
+$path = Http::getRawPathAndMethod();
 
-Router::add('/', function() {
-    Middleware::chain(Templates::base('home'));
+Router::add('GET /', function() {
+    Middleware::chain(View::home());
 });
 
 $err = Router::handleRequest($path);
