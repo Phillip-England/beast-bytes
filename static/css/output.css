@@ -562,6 +562,10 @@ video {
   position: fixed;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -596,6 +600,22 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[50px\] {
+  height: 50px;
+}
+
+.h-\[65px\] {
+  height: 65px;
+}
+
+.h-\[75px\] {
+  height: 75px;
+}
+
+.h-\[85px\] {
+  height: 85px;
 }
 
 .w-3\/5 {

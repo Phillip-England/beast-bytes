@@ -1,5 +1,6 @@
 <?php
 
+require 'vendor/autoload.php';
 include 'src/http.php';
 include 'src/components.php';
 include 'src/router.php';

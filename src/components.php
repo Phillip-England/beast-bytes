@@ -5,7 +5,7 @@ class Component {
 
     public static function header() {
         ?>
-            <header class='p-4 border-b flex flex-row justify-between bg-white-500 fixed top-0 w-full'>
+            <header class='p-4 border-b flex flex-row justify-between bg-white-500 fixed top-0 w-full h-[85px]'>
                 <div class=' flex flex-col'>
                     <h1 class='text-xl font-semibold'>Beast Bytes</h1>
                     <p class='text-sm'>byte-sized tech tutorials</p>
@@ -18,6 +18,7 @@ class Component {
                     </div>
                 </div>
             </header>
+            <div class='flex h-[85px]'></div>
             <?= Js::toggleNavMenu("#header-bars") ?>
         <?php
     }
@@ -25,7 +26,7 @@ class Component {
     public static function navMenu() {
         ?>
             <nav id='nav-menu' class='fixed top-0 left-0 w-[70%] h-screen z-40 border-r hidden'>
-                <div class=' flex flex-col border-b p-4 bg-white-500'>
+                <div class=' flex flex-col border-b p-4 bg-white-500 h-[85px]'>
                     <h1 class='text-xl font-semibold'>Beast Bytes</h1>
                     <p class='text-sm'>byte-sized tech tutorials</p>
                 </div>
